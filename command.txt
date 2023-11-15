@@ -1,0 +1,5 @@
+1 grep -io "PHIYADA" email.txt | tee -a new_file.txt
+2. grep -o "6452300806@stu.pim.ac.th" email.txt | tee -a new_file.txt
+grep -o '64.*th' email.com แสดงทั้งหมด
+3. grep -oE '[0-9]*806[0-9]*' email.txt| tee -a new_file.txtแสดงของตัวเอง
+grep -oE '[0-9]+' file.txt แสดงทั้งหมด
